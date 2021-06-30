@@ -1,5 +1,9 @@
 # Air-Quality-IoT-Analytics
 
+### Introduction
+
+Air pollution is a global problem and one of the most dangerous environmental risks to human health. In Europe, air quality remains poor in many cities that experience exceedances of the regulated limits for air pollutants. In this paper, we present a real-world end-to-end air quality use case that leverages cutting-edge IoT devices and wireless technology to improve the living experience of citizens in urban areas. More particularly, we exploit the low-cost IoT devices to monitor air quality in multiple location points to build a historical air quality dataset that contains accurate (experts calibrated for precision close to air-quality stations) and reliable (resilient LoRa networks) concentrations of air pollutants. These data can be the foundation for European Environment Agency (EEA), World Health Organization (WHO), other e-government bodies to design ML algorithms for advanced air-quality analytics.
+
 **[ipynb] Anomaly Detection using TRAFAIR Air Quality Dataset.ipynb**: We have run 12 unsupervised anomaly detection algorithms such as Angle-base Outlier Detection, Isolation Forest, clustering-Based Local Outlier, and other algorithms on the [TRAFAIR](https://www.dati.gov.it/view-dataset?Cerca=&tags_set=trafair&tags=trafair&ordinamento=&sort=Invia) air quality dataset. The anomaly score of each model type is provided along with the T-distributed Stochastic Neighbor Embedding (3D) and Uniform Manifold Approximation and Projection (2D) plots. 
 
 **[html] Anomaly Detection using TRAFAIR Air Quality Dataset.html**: Is IPython notebook converted/exported to HTML.
@@ -30,4 +34,4 @@ Plot that can be used to analyze the anomaly detection model over different aspe
 
 ![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/umap_plot_for_outliers.png)
 
-Note: Interactable plots are broken due to the high-resolution output by Plotly. It will appear back when the notebook is run again from start.
+**Note**: Interactable plots are broken due to the high-resolution output by Plotly. It will appear back when the notebook is run again from start.
