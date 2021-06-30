@@ -34,7 +34,7 @@ The two columns 'Anomaly' and 'Anomaly_Score are added towards the end. 0 stands
 
 ### Uniform manifold approximation and projection (umap) for outliers
 
-Plot that can be used to analyze the anomaly detection model over different aspects.
+Plot that can be used to analyze the anomaly detection model over different aspects. We provide users the freedom to use any model of their choice to detect and remove anomalies (due to events such as low battery voltage, physical disturbances, etc). The output is clean data that can power advanced air quality analytics tasks.
 
 ![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/umap_plot_for_outliers.png)
 
