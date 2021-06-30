@@ -23,3 +23,5 @@ The two columns 'Label' and 'Score are added towards the end. 0 stands for inlie
 Plot that can be used to analyze the anomaly detection model over different aspects.
 
 ![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/umap_plot_for_outliers.png)
+
+Interactable plots are broken due to the high-resolution output by Plotly. It will appear back when the notebook is run again from start.
