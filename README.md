@@ -6,6 +6,12 @@
 
 Download the [html] file and open it via browser. The [ipynb] file can be loaded and viewed from the Github page, but it needs to be reloaded as the file is large. Hence, it is best to download and open via Google Colab or Jupyter Notebook.
 
+### Air quality dataset build description
+
+Numerous IoT devices are exploited to monitor and collect the pollution level on an urban scale in Modena, Florence, Pisa, Livorno, Santiago de Compostela, and Zaragoza (cities in Italy and Spain). As shown below, 14 IoT devices are installed in 12 points of Modena, Italy (similar installation in remaining cities). We show the installed device's hardware view in same Figure below, where each device contains 4 cells (sensors), one for each gas ($NO$, $NO_{2}$, $CO$ and $O_{x}$). Each cell measures the gas level through 2 channels (the auxiliary and the working channels) and provides a measure for each gas and channel in millivolts (mV). 
+
+![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/hardware_location.png)
+
 ### Unsupervised anomaly detection models
 
 The following anomaly detection models are created using PyCaret and trained using a part of TRAFAIR dataset.
@@ -24,4 +30,4 @@ Plot that can be used to analyze the anomaly detection model over different aspe
 
 ![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/umap_plot_for_outliers.png)
 
-Interactable plots are broken due to the high-resolution output by Plotly. It will appear back when the notebook is run again from start.
+Note: Interactable plots are broken due to the high-resolution output by Plotly. It will appear back when the notebook is run again from start.
