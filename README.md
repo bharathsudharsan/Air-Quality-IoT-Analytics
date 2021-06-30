@@ -10,13 +10,13 @@ Download the [html] file and open it via browser. The [ipynb] file can be loaded
 
 The following anomaly detection models are created using PyCaret and trained using a part of TRAFAIR dataset.
 
-![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/Model_names.PNG)
+![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/model_names.PNG)
 
 ### Assign anomaly labels to dataset
 
 The two columns 'Label' and 'Score are added towards the end. 0 stands for inliers and 1 for outliers/anomalies. Score is the values computed by the algorithm. Outliers are assigned with larger anomaly scores.
 
-![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/Assign_a_model.PNG)
+![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/assign_a_model.PNG)
 
 ### Uniform manifold approximation and projection (umap) for outliers
 
