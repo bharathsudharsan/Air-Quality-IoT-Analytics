@@ -38,4 +38,8 @@ Plot that can be used to analyze the anomaly detection model over different aspe
 
 ![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/umap_plot_for_outliers.png)
 
+### Air Quality Data Analytics
+
+The battle against air pollution will be won with data. Following are few potential applications of the built dataset; (i) Train ML algorithms that can be centrally deployed (on a cloud platform) and give access to various APIs for forecasting/predicting (model inference) urban air quality in any given location point of Spain and Italy; (ii) Generate air quality index heat-map of past, present, future to rank the area's emission levels and track changes; (iii) Assessment, intervention, and use for e-government decision support (since reliable historic data) when forming pollution reducing policies.
+
 **Note**: In the [html] andd [ipynb] files, the interactable plots are broken due to the high-resolution output by Plotly. It will appear back when the notebook is run again from start.
