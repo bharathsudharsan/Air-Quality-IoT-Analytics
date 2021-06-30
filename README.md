@@ -14,7 +14,7 @@ Download the [html] file and open it via browser. The [ipynb] file can be loaded
 
 Numerous IoT devices are exploited to monitor and collect the pollution level on an urban scale in Modena, Florence, Pisa, Livorno, Santiago de Compostela, and Zaragoza (cities in Italy and Spain). As shown below, 14 IoT devices are installed in 12 points of Modena, Italy (similar installation in remaining cities). We show the installed device's hardware view in same Figure below, where each device contains 4 cells (sensors), one for each gas ($NO$, $NO_{2}$, $CO$ and $O_{x}$). Each cell measures the gas level through 2 channels (the auxiliary and the working channels) and provides a measure for each gas and channel in millivolts (mV). 
 
-<img src="(https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/hardware_location.png" width="100" height="100">
+<img src="https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/hardware_location.png" width="80" height="80">
 
 ### Unsupervised anomaly detection models
 
