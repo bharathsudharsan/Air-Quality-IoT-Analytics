@@ -10,4 +10,4 @@ Download the [html] file and open it via browser. The [ipynb] file can be loaded
 
 The following anomaly detection models are created using PyCaret and trained using a part of TRAFAIR dataset.
 
-![alt text](https://github.com/bharathsudharsan/Train_plus_plus/blob/master/setsize_vs_train_time_and_accuracy.png)
+![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/model_names.PNG)
