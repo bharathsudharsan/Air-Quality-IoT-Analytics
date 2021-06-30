@@ -2,11 +2,11 @@
 
 ### Introduction
 
-Air pollution is a global problem and one of the most dangerous environmental risks to human health. In Europe, air quality remains poor in many cities that experience exceedances of the regulated limits for air pollutants. In this paper, we present a real-world end-to-end air quality use case that leverages cutting-edge IoT devices and wireless technology to improve the living experience of citizens in urban areas. More particularly, we exploit the low-cost IoT devices to monitor air quality in multiple location points to build a historical air quality dataset that contains accurate (experts calibrated for precision close to air-quality stations) and reliable (resilient LoRa networks) concentrations of air pollutants. These data can be the foundation for European Environment Agency (EEA), World Health Organization (WHO), other e-government bodies to design ML algorithms for advanced air-quality analytics.
+Air pollution is a global problem and one of the most dangerous environmental risks to human health. In Europe, air quality remains poor in many cities that experience exceedances of the regulated limits for air pollutants. In this work, we present a real-world end-to-end air quality use case that leverages cutting-edge IoT devices and wireless technology to improve the living experience of citizens in urban areas. More particularly, we exploit the low-cost IoT devices to monitor air quality in multiple location points to build a historical air quality dataset that contains accurate (experts calibrated for precision close to air-quality stations) and reliable (resilient LoRa networks) concentrations of air pollutants. These data can be the foundation for European Environment Agency (EEA), World Health Organization (WHO), other e-government bodies to design ML algorithms for advanced air-quality analytics.
 
 **[ipynb] Anomaly Detection using TRAFAIR Air Quality Dataset.ipynb**: We have run 12 unsupervised anomaly detection algorithms such as Angle-base Outlier Detection, Isolation Forest, clustering-Based Local Outlier, and other algorithms on the [TRAFAIR](https://www.dati.gov.it/view-dataset?Cerca=&tags_set=trafair&tags=trafair&ordinamento=&sort=Invia) air quality dataset. The anomaly score of each model type is provided along with the T-distributed Stochastic Neighbor Embedding (3D) and Uniform Manifold Approximation and Projection (2D) plots. 
 
-**[html] Anomaly Detection using TRAFAIR Air Quality Dataset.html**: Is IPython notebook converted/exported to HTML.
+**[html] Anomaly Detection using TRAFAIR Air Quality Dataset.html**: IPython notebook converted/exported to HTML.
 
 Download the [html] file and open it via browser. The [ipynb] file can be loaded and viewed from the Github page, but it needs to be reloaded as the file is large. Hence, it is best to download and open via Google Colab or Jupyter Notebook.
 
@@ -36,7 +36,7 @@ The two columns 'Anomaly' and 'Anomaly_Score are added towards the end. 0 stands
 
 Plot that can be used to analyze the anomaly detection model over different aspects. We provide users the freedom to use any model of their choice to detect and remove anomalies (due to events such as low battery voltage, physical disturbances, etc). The output is clean data that can power advanced air quality analytics tasks.
 
-**How to remove the Anomalies (yellow points)**: Just run the above trained Unsupervised anomaly detection model of choice. Then, remove the data rows that correspond to high anomaly scores (set a threshold).
+**How to remove the anomalies (yellow points)**: Just run the above trained unsupervised anomaly detection model of choice. Then, remove the data rows that correspond to high anomaly scores (set a threshold).
 
 ![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/umap_plot_for_outliers.png)
 
