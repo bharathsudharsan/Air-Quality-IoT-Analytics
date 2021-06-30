@@ -36,7 +36,7 @@ The two columns 'Anomaly' and 'Anomaly_Score are added towards the end. 0 stands
 
 Plot that can be used to analyze the anomaly detection model over different aspects. We provide users the freedom to use any model of their choice to detect and remove anomalies (due to events such as low battery voltage, physical disturbances, etc). The output is clean data that can power advanced air quality analytics tasks.
 
-**How to remove the Anomalie in yellow points: Just run the model and remove the data rows that correspond to high anomaly scores.** 
+**How to remove the Anomalies (yellow points)**: Just run the above trained Unsupervised anomaly detection model of choice. Then, remove the data rows that correspond to high anomaly scores (set a threshold).
 
 ![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/umap_plot_for_outliers.png)
 
