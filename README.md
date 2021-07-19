@@ -45,3 +45,20 @@ Plot that can be used to analyze the anomaly detection model over different aspe
 The battle against air pollution will be won with data. Following are few potential applications of the built dataset; (i) Train ML algorithms that can be centrally deployed (on a cloud platform) and give access to various APIs for forecasting/predicting (model inference) urban air quality in any given location point of Spain and Italy; (ii) Generate air quality index heat-map of past, present, future to rank the area's emission levels and track changes; (iii) Assessment, intervention, and use for e-government decision support (since reliable historic data) when forming pollution-reducing policies.
 
 **Note**: In the [html] and [ipynb] files, the interactable plots are broken due to the high-resolution output by Plotly. It will appear back when the notebook is run again from start.
+
+**If the code is useful, please consider citing paper using the BibTex entry below.**
+
+```
+@inproceedings{federica2021ubicomp,
+  title={Air Quality Sensor Network Data Acquisition, Cleaning, Visualization, and Analytics: A Real-world IoT Use Case},
+  author={Rollo, Federica and Sudharsan, Bharath and Po, Laura and Breslin, John G},
+  booktitle={The ACM international joint conference on pervasive and ubiquitous computing (UbiComp)},
+  year={2021}
+}
+
+@inproceedings{sudharsan2021iotdidemo,
+  title={Demo abstract: Porting and execution of anomalies detection models on embedded systems in iot},
+  author={Sudharsan, Bharath and Patel, Pankesh and Wahid, Abdul and Yahya, Muhammad and Breslin, John G and Ali, Muhammad Intizar},
+  booktitle={International Conference on Internet-of-Things Design and Implementation (IoTDI)},
+  year={2021}
+}
