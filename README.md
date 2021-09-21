@@ -22,7 +22,20 @@ The accuracy of raw measurements by sensors is affected by events such as low ba
 
 The following anomaly detection models are created using PyCaret and trained using a part of the TRAFAIR dataset. 
 
-![alt text](https://github.com/bharathsudharsan/Air-Quality-IoT-Analytics/blob/main/model_names.PNG)
+| ID        | Name                              | Reference                   |
+|-----------|-----------------------------------|-----------------------------|
+| abod      | Angle-base Outlier Detection      | pyod.models.abod.ABOD       |
+| cluster   | Clustering-Based Local Outlier    | pyod.models.cblof.CBLOF     |
+| cof       | Connectivity-Based Local Outlier  | pyod.models.cof.COF         |
+| iforest   | Isolation Forest                  | pyod.models.iforest.IForest |
+| histogram | Histogram-based Outlier Detection | pyod.models.hbos.HBOS       |
+| knn       | K-Nearest Neighbors Detector      | pyod.models.knn.KNN         |
+| lof       | Local Outlier Factor              | pyod.models.lof.LOF         |
+| svm       | One-class SVM detector            | pyod.models.ocsvm.OCSVM     |
+| pca       | Principal Component Analysis      | pyod.models.pca.PCA         |
+| mcd       | Minimum Covariance Determinant    | pyod.models.mcd.MCD         |
+| sod       | Subspace Outlier Detection        | pyod.models.sod.SOD         |
+| sos       | Stochastic Outlier Selection      | pyod.models.sos.SOS         |
 
 ### Assign anomaly labels to dataset
 
