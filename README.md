@@ -68,16 +68,23 @@ The battle against air pollution will be won with data. Following are few potent
 **If the code is useful, please consider citing paper using the BibTex entry below.**
 
 ```
-@inproceedings{federica2021ubicomp,
-  title={Air Quality Sensor Network Data Acquisition, Cleaning, Visualization, and Analytics: A Real-world IoT Use Case},
-  author={Rollo, Federica and Sudharsan, Bharath and Po, Laura and Breslin, John G},
-  booktitle={The ACM international joint conference on pervasive and ubiquitous computing (UbiComp)},
-  year={2021}
+@inproceedings{rollo2021ubicomp,
+  title     = {Air Quality Sensor Network Data Acquisition, Cleaning, Visualization, and Analytics: A Real-world IoT Use Case},
+  author    = {Rollo, Federica and Sudharsan, Bharath and Po, Laura and Breslin, John G},
+  editor    = {Afsaneh Doryab and Qin Lv and Michael Beigl},
+  booktitle = {UbiComp/ISWC '21: 2021 {ACM} International Joint Conference on Pervasive
+               and Ubiquitous Computing and 2021 {ACM} International Symposium on
+               Wearable Computers, Virtual Event, September 21-25, 2021},
+  pages     = {67--68},
+  publisher = {{ACM}},
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3460418.3479277},
+  doi       = {10.1145/3460418.3479277}
 }
 
 @inproceedings{sudharsan2021iotdidemo,
-  title={Demo abstract: Porting and execution of anomalies detection models on embedded systems in iot},
-  author={Sudharsan, Bharath and Patel, Pankesh and Wahid, Abdul and Yahya, Muhammad and Breslin, John G and Ali, Muhammad Intizar},
-  booktitle={International Conference on Internet-of-Things Design and Implementation (IoTDI)},
-  year={2021}
+  title     = {Demo abstract: Porting and execution of anomalies detection models on embedded systems in iot},
+  author    = {Sudharsan, Bharath and Patel, Pankesh and Wahid, Abdul and Yahya, Muhammad and Breslin, John G and Ali, Muhammad Intizar},
+  booktitle = {International Conference on Internet-of-Things Design and Implementation (IoTDI)},
+  year      = {2021}
 }
